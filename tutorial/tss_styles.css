@@ -66,8 +66,8 @@ article#about_tss h1{
 /* Aside and Blockquote Styles */
 aside blockquote{
    color: rgb(232, 165, 116);
-   margin: 20px, 5px;
-   quotes: "\201C" "201D";
+   margin: 20px 5px;
+   quotes: "\201C" "\201D";
 }
 aside blockquote::before{
    content: open-quote;
@@ -99,7 +99,7 @@ nav > ul{
    padding-left: 5px;
 }
 
-nac > ul > li.newgroup{
+nav > ul > li.newgroup{
    margin-top: 20px;
 }
 nav > ul > li > a:link, nav > ul > li > a:visited{
@@ -113,15 +113,14 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
 
 
 
-
 /* List Styles */
-article.syallbus ol{
+article.syllabus ol{
    list-style-type: upper-roman;
 }
-article.syallbus ol ol{
+article.syllabus ol ol{
    list-style-type: upper-alpha;
 }
-article.syallabus ol ol ol{
+article.syllabus ol ol ol{
    list-style-type: decimal;
 }
 article#about_tss ul li:first-of-type{
