@@ -1,32 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <title>Darrens Website</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width. initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Darrens Website</title>
+    </head>
     <body>
+        <section class="showcase">
+    <header>
+        <h2 class="logo">Darren Tinney</h2>
+        <div class="toggle"></div>
+    </header>
+        <video src="waterdroplet.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+        <h2>Home Page</h2>
+        <h3>Darrens Website</h3>
+        <P>Here you can see all my work/projects and learn a little about who I am and what I do.  
+            All the information is put onto their own tabs displayed on the menu.  
+          Just click and it will take you straight there.
+         
+        </P>
+        <a href="#"> Contact Info</a>
+    </div>
+
+    <ul class="social">
+        <li><a href="#"><img src="facebook.png" alt=""></li></a>
+        <li><a href="#"><img src="twitter.png" alt=""></li></a>
+        <li><a href="#"><img src="instagram.png" alt=""></li></a>
+    </ul>
     
-    <style>
-        div.a {
-	text-align: center;
-}
-    body { 
-        background-image: url('Wallpaper.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-}
-    </style>
-    <div class="a">
-    <header> 
-        
-        <h1 style="color:rgb(255, 255, 255);">Home</h1>
-    </div> 
-       <nav>
-        <ol>
-            <h3 style="color:rgb(255, 255, 255);"><li><a href ="about.html" style="color:rgb(255, 255, 255);">About Me</li></h4></a>
-            <h3 style="color:rgb(255, 255, 255);"><li><a href ="project.html" style="color:rgb(255, 255, 255);">Projects</li></h4></a>
-            <h3 style="color:rgb(255, 255, 255);"><li><a href ="resume.pdf" style="color:rgb(255, 255, 255);">Resume</li></h4></a>
-            <h3 style="color:rgb(255, 255, 255);"><li><a href ="terminology.html" style="color:rgb(255, 255, 255);">Terminology</li></h4></a>
-        </ol>
-    </nav>
-    </header> 
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="terminology.html">Terminology</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
     </body>
 </html>
