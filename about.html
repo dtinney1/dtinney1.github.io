@@ -1,30 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width. initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Darrens Website</title>
+    </head>
     <body>
-        <style>
-            div.a {
-        text-align: center;
-    }
-        </style>
-        <div class="a">
-        <header> 
-            <h1>About Me</h1>
-        </div> 
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Terminology</a></li>
-            </ul>
-        </div>
-        </header> 
-        <div class ="a">
-            <p>I am a 18 year old High School senior currently attending Nordonia High School and Cyahoga Valley Career Center.  I am currently a chasier/stocker at GFS (Gordan Foods
-            Service) I have been working there for a little of a year now.  I have experience bulding the physical aspects of computers and would like to say I am fairly knowlegable 
-            in that feild.  Which is what made me want to be a programer so I can work on both ends of computers.  I got into computers because of video games which I enjoy during my 
-            free time.   </p>
-        </div>
-        </body>
+        <section class="showcase">
+    <header>
+        <h2 class="logo">Darren Tinney</h2>
+        <div class="toggle"></div>
+    </header>
+        <video src="bluebubble.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+        <h2>About Me </h2>
+        <p>I am a 18 year old High School senior currently attending Nordonia High School and Cyahoga Valley Career Center.  I am currently a chasier/stocker at GFS (Gordan Foods
+    Service) I have been working there for a little of a year now.  I have experience bulding the physical aspects of computers and would like to say I am fairly knowlegable 
+    in that feild.  Which is what made me want to be a programer so I can work on both ends of computers.  I got into computers because of video games which I enjoy during my 
+    free time.   </p>
+         
+        
+        <a href="resume.pdf">Resume/Contact Info</a>
+    </div>
+
+    <ul class="social">
+        <li><a href="#"><img src="facebook.png" alt=""></li></a>
+        <li><a href="#"><img src="twitter.png" alt=""></li></a>
+        <li><a href="#"><img src="instagram.png" alt=""></li></a>
+    </ul>
+    
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="terminology.html">Terminology</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    </body>
 </html>

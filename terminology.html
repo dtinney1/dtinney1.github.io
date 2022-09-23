@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <style>
-            div.a {
-        text-align: center;
-    }
-            div.b {
-        text-align: right;
-    }
-        </style>
-        <div class="a">
-        <header> 
-            <h1>Terminology</h1>
-        </div> 
-           <nav>
-            <ol>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewpoint" content="width=device-width. initial-scale=1.0">
+                    <link rel="stylesheet" href="style.css">
+                    <title>Darrens Website</title>
+                </head>
+                <body>
+                    <section class="showcase">
+                <header>
+                    <h2 class="logo">Darren Tinney</h2>
+                    <div class="toggle"></div>
+                </header>
+                    <video src="swirling.mp4" muted loop autoplay></video>
+            
+                <div class="overlay"></div>
+            
+                <div class="text">
+                    <h3>Terminology</h3>
+                    <ul></ul>
+                        <li>A href=""</li>
+                        <li>img src=""</li>
+                        <li>div.a { text-align: center/left/right}</li>
+                        <li>nav</li>
+                        <li>ol,ul,li</li>
+                        <li>h1-h6</li>
+                        <li>style="background-color: "</li>
+                        <li>style="color: "</li>
+                        <li>p,hr,br,b,i</li>
+                </ul>
+                <a href="resume.pdf">Resume/Contact Info</a>
+                </div>
+            
+                <ul class="social">
+                    <li><a href="#"><img src="facebook.png" alt=""></li></a>
+                    <li><a href="#"><img src="twitter.png" alt=""></li></a>
+                    <li><a href="#"><img src="instagram.png" alt=""></li></a>
+                </ul>
+                
+                </section>
+            
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Terminology</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="index.html">Home Page</a></li>
                     </ul>
                 </div>
-
-                <div class="a">
-                    <h1>HTLM Terms I know</h1>
-                </div>
-            </ol>
-        </nav>
-        </header>
-            <div class="a">
-            <h3>
-                <li>A href=""</li>
-                <li>img src=""</li>
-                <li>div.a { text-align: center/left/right}</li>
-                <li>nav</li>
-                <li>ol,ul,li</li>
-                <li>h1-h6</li>
-                <li>style="background-color: "</li>
-                <li>style="color: "</li>
-                <li>p,hr,br,b,i</li>
-            </h3>
-            </div>
-        </body>
-</html>
+            
+                <script>
+                    const menuToggle = document.querySelector('.toggle')
+                    const showcase = document.querySelector('.showcase')
+            
+                    menuToggle.addEventListener('click', () => {
+                        menuToggle.classList.toggle('active')
+                        showcase.classList.toggle('active')
+                    })
+                </script>
+                </body>
+            </html>
