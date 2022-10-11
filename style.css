@@ -181,14 +181,14 @@
     }
 
     .text h2{
-        font-size: larger;
+        font-size: 12em;
     }
 
     .text h3{
-        font-size: larger;
+        font-size: 10em;
     }
 
     .text p{
-        font-size: larger;
+        font-size: 5em;
     }
 }
