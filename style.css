@@ -175,7 +175,7 @@
     color: var(--overlay-color);
 }
 
-@media(max-width:798px){
+@media(max-width:680px){
     .showcase, .showcase header{
         padding: 40px;
     }
