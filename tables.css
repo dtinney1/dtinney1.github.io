@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+table.projects{
+   background-color: white;
+}
+
+table.projects th, table.projects td {
+   border: 5px solid black;
+}
+table.projects tr{
+   border: 5px solid black;
+}
+
+table.projects caption{
+   caption-side: bottom;
+   text-align: right;
+}
+
+

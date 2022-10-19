@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width. initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link href="tables.css" rel="stylesheet"/>
         <title>Darrens Website</title>
     </head>
     <body>
@@ -12,28 +13,36 @@
         <h2 class="logo">Darren Tinney</h2>
         <div class="toggle"></div>
     </header>
-     
+        <video src="bubbles.mp4" muted loop autoplay></video>
 
     <div class="overlay"></div>
 
     <div class="text">
-        <h3>Projects Page</h3>
+        <table class="projects">
+        <th><h3 class="text1">Projects Page</h3></th>
         <article>
-            <h4>Here are a few examples of my work</h4>
-            <p><a href="tutorial/tss_home.html" target="_blank">Project #1: CSS</p></a>
-            <p><a href="tutorial3/pc_home.html" target="_blank"> Porject #2: Pandaisia Chocalates</p></a>
-            <p><a href="tutorial4/tb_komatsu.html" traget="_blank">Project #3: Tree and Book</p></a>
-            <p><a href="tutorial5/tf_home.html" target_="blank">Project #4: Trusted Friends</a></p>
-            
+            <th><h4 class="text1">Here are a few examples of my work</h4></th>
+            <tr>
+                <td><p><a href="tutorial/tss_home.html" target="_blank">Project #1: CSS</p></a></td>
+                <td><p><a href="tutorial3/pc_home.html" target="_blank"> Porject #2: Pandaisia Chocalates</p></a></td>
+            </tr>
+            <tr>
+                <td><p><a href="tutorial4/tb_komatsu.html" traget="_blank">Project #3: Tree and Book</p></a></td>
+                <td><p><a href="tutorial5/tf_home.html" target_="blank">Project #4: Trusted Friends</a></p></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p><a href="tutorial6/dlr_lw0414.html" target_="blank">Project #5: The Living World</a></p></td></td>
+            </tr>
+            <caption><a href="resume.pdf">Resume/Contact Info</a></caption>
         </article>
-        <a href="resume.pdf">Resume/Contact Info</a>
+        
+        </table>
     </div>
 
     <ul class="social">
         <li><a href="https://www.youtube.com/channel/UC3YduEqeHM2122-G0MrJrUw"><img src="youtube.png" alt=""></li></a>
         <li><a href="https://twitter.com/DTin_04"><img src="twitter.png" alt=""></li></a>
         <li><a href="https://www.instagram.com/darren.t_15/"><img src="instagram.png" alt=""></li></a>
-        <li><a href="https://replit.com/@PSD2022/Money-Dtinney1#Main.java"><img src="money.png"></a></li>
     </ul>
     
     </section>
