@@ -199,56 +199,56 @@
 #icons1{
     width: 50px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     margin: 0px;
     padding: 5px;
     right: 70px;
-    bottom: 670px;
-    left: 565px; 
+    bottom: 530px;
+    left: 470px; 
 }
 
 #icons2{
     width: 50px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     margin: 0px;
     padding: 5px;
     right: 70px;
-    bottom: 640px;
-    left: 1500px;
+    bottom: 495px;
+    left: 1390px;
 }
 
 #icons3{
     width: 40px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     margin: 0px;
     padding: 5px;
     right: 70px;
-    bottom: 385px;
-    left: 800px;
+    bottom: 245px;
+    left: 700px;
 }
 
 #icons4{
     width: 55px;
     height: 55px;
-    position: fixed;
+    position: absolute;
     margin: 0px;
     padding: 5px;
     right: 70px;
-    bottom: 382px;
-    left: 830px;
+    bottom: 242px;
+    left: 735px;
 }
 
 #icons5{
     width: 55px;
     height: 55px;
-    position: fixed;
+    position: absolute;
     margin: 0px;
     padding: 5px;
     right: 70px;
-    bottom: 133px;
-    left: 1375px;
+    bottom: -5px;
+    left: 1275px;
 }
 
 
