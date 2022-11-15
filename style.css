@@ -126,6 +126,8 @@
     transition: 0.2s;
 }
 
+
+
 #resume{
     display: inline-block;
     font-size: 1em;
@@ -293,8 +295,20 @@
     }
 
     .text ul li{
-        font-size: 1.5em;
+        font-size: .7em;
     }
     
+    .text li h4{
+        font-size: 1em;
+    }
+    
+    #icons5, #icons4, #icons2, #icons3, #icons1{
+        display: none;
+    }
+
+    .text h3 {
+        padding-top: 50px;
+    }
+
     
 }
