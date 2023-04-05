@@ -26,8 +26,28 @@
     transition: 0.5s;
 }
 
+.Grad{
+    position: absolute;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    bottom: 550px;
+    left: 900px;
+}
+
 .showcase.active{
     right: 300px;
+}
+
+#countdown{
+    position: absolute;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    bottom: 150px;
+    left: 900px;
 }
 
 .showcase header {
